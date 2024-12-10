@@ -109,6 +109,29 @@
         footer p {
             margin: 0;
         }
+        .volver-container {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+        .volver-btn {
+            font-size: 20px;
+            color: white;
+            background: linear-gradient(135deg, #f4b941, #1d428a);
+            padding: 15px 30px;
+            border-radius: 5px;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: bold;
+            display: inline-block;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .volver-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+        }
 
         @media (max-width: 768px) {
             header h1 {
@@ -168,7 +191,7 @@
             </div>
         </section>
 
-        <section class="section">
+        <div class="section">
             <h2>Estadísticas en la NBA</h2>
             <p>Veamos cómo Luka Dončić ha dominado la cancha con sus estadísticas impresionantes.</p>
             <table>
@@ -201,7 +224,10 @@
                     </tr>
                 </tbody>
             </table>
-        </section>
+        </div>
+         <div class="volver-container">
+            <a href="index.html" class="volver-btn">Volver</a>
+        </div>
     </div>
 
     <footer>
